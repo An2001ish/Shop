@@ -21,7 +21,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 50px 0px;
+    margin: 0px 40px;
 }
 
 .navmid
@@ -58,3 +59,67 @@ nav a:hover
     color: silver;
 }
 
+.navright
+{
+    display: flex;
+    align-items: center;
+}
+
+.navright>a
+{
+    font-size: 16px;
+}
+
+.navmid
+{
+    font-weight: 900;
+    border: 2px solid black;
+    padding: 8px;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.navmid>a:hover
+{
+    color: black;
+}
+
+.navmid:hover
+{
+    box-shadow: 5px 5px black;
+}
+
+.profile
+{
+    margin-right: -20px;
+    margin-top: 5px;
+}
+
+.searchbox
+{
+    border: 2px solid white;
+    border-bottom: 1px solid black;
+    height: 35px;
+    width: 230px;
+}
+
+.searchbox:hover
+{
+    border: 2px solid black;
+
+}
+
+.navleft li a
+{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.bigimage
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
