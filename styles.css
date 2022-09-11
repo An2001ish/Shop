@@ -121,7 +121,7 @@ main
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.bigimg
+.bigimage
 {
     height: 700px;
 }
@@ -129,6 +129,9 @@ main
 .limage
 {
     float: left;
+    position: absolute;
+    z-index: -1;
+    
 }
 
 
@@ -160,12 +163,6 @@ main
 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-}
-
-.limage
-{
-    position: absolute;
-    z-index: -1;
 }
 
 .textbutton>div,button
