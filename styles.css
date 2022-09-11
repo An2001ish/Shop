@@ -115,11 +115,69 @@ nav a:hover
     font-weight: lighter;
 }
 
-.bigimage
+.limage
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+    float: left;
 }
+
+
+.textbutton
+{
+    vertical-align: baseline;
+    margin-bottom: 0px;
+    margin-left: 530px;
+    max-width: 600px;
+    position: relative;
+    top: 250px;
+}
+
+.text1
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.text2
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight:lighter;
+}
+
+.section button
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.limage
+{
+    position: absolute;
+    z-index: -1;
+}
+
+.textbutton>div,button
+{
+    margin-top: 15px;
+}
+
+.shopnow
+{
+   padding:10px 35px;
+    background-color: #5E5E4A;
+    color: whitesmoke;
+    transition: all 0.5s ease 0s;
+    border: 1px solid black;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.shopnow:hover
+{
+    background-color: silver;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
