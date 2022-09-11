@@ -115,6 +115,17 @@ nav a:hover
     font-weight: lighter;
 }
 
+main
+{
+    height: 500vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bigimg
+{
+    height: 700px;
+}
+
 .limage
 {
     float: left;
@@ -179,5 +190,16 @@ nav a:hover
     color: black;
     cursor: pointer;
     border: 1px solid black;
+}
+
+.sof
+{
+    text-align: center;
+    margin: 150px 0px;
+    font-family: inherit;
+    letter-spacing: 8px;
+    font-size: 40px;
+    font-weight:lighter
+   
 }
 
