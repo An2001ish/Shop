@@ -192,11 +192,50 @@ main
 .sof
 {
     text-align: center;
-    margin: 150px 0px;
+    margin: 130px 0px;
     font-family: inherit;
     letter-spacing: 8px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight:lighter
    
 }
 
+.videonother
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.textnbutton
+{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 50vh;
+    justify-content: space-between;
+}
+
+.textnbutton>span,button
+{
+    font-family: inherit;
+    font-weight: lighter;
+}
+
+.nature
+{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.para
+{
+    font-size: 20px;
+}
+
+.vid
+{
+    resize: horizontal;
+}
