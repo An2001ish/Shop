@@ -235,7 +235,15 @@ main
     font-size: 20px;
 }
 
+.vid>video
+{
+    height: 100%;
+    width: 100%;
+}
+
 .vid
 {
-    resize: horizontal;
+    height: 200px;
+    width: 200px;
+    overflow: none;
 }
