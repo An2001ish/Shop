@@ -195,7 +195,7 @@ main
     margin: 130px 0px;
     font-family: inherit;
     letter-spacing: 8px;
-    font-size: 50px;
+    font-size: 60px;
     font-weight:lighter
    
 }
@@ -205,17 +205,19 @@ main
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .textnbutton
 {
-    max-width: 350px;
+    margin-top: 20px;
+    max-width: 390px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     max-height: 50vh;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .textnbutton>span,button
@@ -226,7 +228,7 @@ main
 
 .nature
 {
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 2px;
 }
 
@@ -239,11 +241,32 @@ main
 {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .vid
 {
-    height: 200px;
-    width: 200px;
-    overflow: none;
+    height: 600px;
+    width: 500px;
+    
+}
+
+.shopcandles
+{
+    padding:10px 35px;
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.5s ease 0s;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.shopcandles:hover
+{
+    background-color: #5E5E4A;
+    
+    color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid black;
 }
