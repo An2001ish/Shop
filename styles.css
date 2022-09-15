@@ -276,8 +276,9 @@ main
 {
     display: flex;
     justify-content: center;
-    margin: 7rem 0rem;
+    margin: 6rem 0rem;
     margin-right: 10rem;
+    margin-bottom: 4rem;
 }
 
 .overlapimg
@@ -315,11 +316,93 @@ main
 
 .sidescroll
 {
-    height: 35rem;
+    height: 40rem;
     background-color: #d7d7cb;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+    gap: 6rem;
 }
 
+.sidescroll>ul
+{
+    list-style: none;
+}
+
+.sale
+{
+    position: absolute;
+    background-color: #5E5E4A;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.photos
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.lavender
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cutprice
+{
+    text-decoration: line-through;
+}
+
+.mpop
+{
+    font-size: 40px;
+}
+
+.itempic>img
+{
+    height: 100%;
+    width: 100%;
+    image-resolution: 1024342;
+} 
+
+.itempic
+{
+    height: 300px;
+    transition: all 0.2s ease 0s;
+}
+
+.itempic:hover
+{
+    box-shadow: 0px 0px 5px #5E5E4A;
+}
+
+.prices,.candelname
+{
+    font-size: 18px;
+}
+.candelname
+{
+    margin-top: 15px;
+}
+
+.story
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para2
+{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
