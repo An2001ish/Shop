@@ -117,7 +117,7 @@ nav a:hover
 
 main
 {
-    height: 500vh;
+    height: 600vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -175,7 +175,7 @@ main
    padding:10px 35px;
     background-color: #5E5E4A;
     color: whitesmoke;
-    transition: all 0.5s ease 0s;
+    transition: all 0.4s ease 0s;
     border: 1px solid black;
     font-size: 13px;
     font-weight: lighter;
@@ -183,7 +183,7 @@ main
 
 .shopnow:hover
 {
-    background-color: silver;
+    background-color: whitesmoke;
     color: black;
     cursor: pointer;
     border: 1px solid black;
@@ -192,10 +192,10 @@ main
 .sof
 {
     text-align: center;
-    margin: 130px 0px;
+    margin: 100px 0px;
     font-family: inherit;
     letter-spacing: 8px;
-    font-size: 60px;
+    font-size: 55px;
     font-weight:lighter
    
 }
@@ -206,6 +206,7 @@ main
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
+    margin-left: 10rem;
 }
 
 .textnbutton
@@ -246,8 +247,8 @@ main
 
 .vid
 {
-    height: 600px;
-    width: 500px;
+    height: 650px;
+    width: 400px;
     
 }
 
@@ -270,3 +271,55 @@ main
     cursor: pointer;
     border: 1px solid black;
 }
+
+.overlapntext
+{
+    display: flex;
+    justify-content: center;
+    margin: 7rem 0rem;
+    margin-right: 10rem;
+}
+
+.overlapimg
+{
+    height: 39rem;
+    width: 30rem;
+    display: flex;
+    overflow: none;
+}
+
+.img1
+{
+    height: 37.5rem;
+    width: 24rem;
+    background-color: #5E5E4A;
+    position: absolute;
+    align-self: flex-end;
+    z-index: -1;
+   
+}
+
+.img2
+{
+    margin-left: 2rem;
+    height: 600px;
+    width: 400px;
+}
+
+.img2>img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidescroll
+{
+    height: 35rem;
+    background-color: #d7d7cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
