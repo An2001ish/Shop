@@ -291,7 +291,7 @@ main
 
 .img1
 {
-    height: 37.5rem;
+    height: 33.5rem;
     width: 24rem;
     background-color: #5E5E4A;
     position: absolute;
@@ -322,7 +322,7 @@ main
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 4.5rem;
 }
 
 .sidescroll>ul
@@ -344,7 +344,7 @@ main
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 
@@ -369,13 +369,14 @@ main
 {
     height: 100%;
     width: 100%;
-    image-resolution: 1024342;
 } 
 
 .itempic
 {
     height: 300px;
     transition: all 0.2s ease 0s;
+    /* overflow: hidden; */
+    position: relative;
 }
 
 .itempic:hover
@@ -406,3 +407,25 @@ main
     margin: 0 auto;
     text-align: center;
 }
+
+.qv
+{
+    position: absolute;
+    z-index: 11;
+    background-color: whitesmoke;
+    text-align: center;
+    text-decoration:none;
+    color: black;
+    height: 40px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+    
+}
+
+.itempic:hover + .qv
+{
+    top: 50%; 
+    transform: translate(-50%,-50%);
+}  
