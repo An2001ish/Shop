@@ -400,7 +400,7 @@ main
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
 }
@@ -423,18 +423,25 @@ main
     height: 40px;
     width: 100%;
     left: 50%;
-    transform: translate(-50%,0);
-    transition: top 2s;
-
+    transform: translate(-50%,0%);
 }
-
 
 .itempic:hover .qv
 {
-    top: 80%; 
-    transform: translate(-50%,0);
-    
+    animation: up 0.3s ease-in-out 0s;
+    animation-fill-mode: forwards;
 }  
+
+@keyframes up {
+    from
+    {
+        bottom: -15%;
+    }
+    to
+    {
+        bottom: 2%;
+    }
+}
 
 .overlapimg2
 {
@@ -451,12 +458,12 @@ main
 
 .img22
 {
-   margin-top: 10%;
+   margin-top: 8%;
 }
 
 .img22>img,.img21>img
 {
-    height: 35rem;
+    height: 31rem;
 }
 
 .ns
@@ -467,4 +474,146 @@ main
 .para3
 {
     font-size: 20px;
+}
+
+.tlb
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 52rem;
+    background-color:rgb(236, 230, 230);
+    gap: 2rem;
+    margin: 6rem 0;
+    margin-bottom: 4rem;
+}
+
+.picntext
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.inside
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 16rem;
+    gap: 1.5rem;
+}
+
+.inside>a>img
+{
+    height: 22rem;
+}
+
+.inside>a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.tlbtext
+{
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.tips
+{
+    font-size: 23px;
+
+}
+
+.final
+{
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.lumis
+{
+    font-weight: 900;
+    border: 2px solid black;
+    padding: 8px;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.lumis>a:hover
+{
+    color: black;
+}
+
+.lumis:hover
+{
+    box-shadow: 5px 5px black;
+}
+
+.final>ul
+{
+    width: 27%;
+    list-style: none;
+}
+.lolo
+{
+    width: 46%;
+}
+
+.lolo
+{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.final a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.undertit
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.second
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tit
+{
+    font-size: 23px;
+}
+
+.in2nd
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.undertit>a
+{
+    font-size: 15px;
+}
+
+.socials
+{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
 }
